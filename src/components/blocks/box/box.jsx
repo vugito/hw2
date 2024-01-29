@@ -1,6 +1,6 @@
 import React, {useEffect, useState} from 'react';
 import styles from "./styles";
-import {Image, Text, View} from "react-native";
+import {View} from "react-native";
 import {Products} from "../../../data/products";
 import Card from "../card/card";
 

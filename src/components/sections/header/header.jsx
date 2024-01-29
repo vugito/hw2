@@ -1,6 +1,7 @@
 import React from 'react';
 import {Text, View} from "react-native";
 import styles from "./styles";
+import SearchBox from "../../blocks/search-box/search-box";
 
 const Header = () => {
     return (
@@ -15,7 +16,9 @@ const Header = () => {
                 <View style={{flex:1, alignItems: 'flex-end'}}>
                     <Text style={styles.filterBtn}>Filter</Text>
                 </View>
+
             </View>
+            <SearchBox/>
         </>
     );
 };

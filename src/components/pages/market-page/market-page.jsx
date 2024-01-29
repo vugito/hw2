@@ -1,5 +1,5 @@
 import React from 'react';
-import {View} from 'react-native';
+import {ScrollView, View} from 'react-native';
 import styles from './styles';
 import Header from "../../sections/header/header";
 import Body from "../../sections/body/body";
@@ -9,7 +9,9 @@ const MarketPage = () => {
         <>
             <View style={styles.container}>
                 <Header/>
-                <Body/>
+                <ScrollView>
+                    <Body/>
+                </ScrollView>
             </View>
         </>
     );

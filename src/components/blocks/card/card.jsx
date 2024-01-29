@@ -1,6 +1,6 @@
 import React from 'react';
 import {Image, Text, View} from "react-native";
-import styles from "../card/styles";
+import styles from "./styles";
 
 const Card = ({index, link, name, price}) => {
     return (

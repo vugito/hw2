@@ -3,13 +3,17 @@ import {StyleSheet} from "react-native";
 const styles = StyleSheet.create({
     searchBoxContainer: {
         // backgroundColor: 'yellow',
-        height: 60
+        height: 60,
+        paddingLeft: 10,
+        paddingRight: 10,
+        marginTop: 15,
+        marginEnd: 15,
+        justifyContent: "center"
     },
     input: {
         height: 50,
-        margin: 12,
         borderWidth: 1,
-        padding: 10,
+        padding: 15,
         backgroundColor: "#f4f4f4",
         borderColor: "#DDDDDD",
         borderRadius: 50,

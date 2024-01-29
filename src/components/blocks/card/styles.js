@@ -15,11 +15,11 @@ const styles = StyleSheet.create({
     },
     boxTitle: {
         fontSize: 12,
-        fontWeight: 700
+        fontWeight: "700"
     },
     boxText: {
         fontSize: 12,
-        fontWeight: 700,
+        fontWeight: "700",
         color: 'black',
     },
     boxTime: {
